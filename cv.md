@@ -1,6 +1,6 @@
 
 # Askhat Bakitov
-![Askhat Bakitov](Askhat.jpeg "Askhat Bakitov")
+![Askhat Bakitov](askhat.jpeg "Askhat Bakitov")
 ## Junior Frontend Developer
 
 ## Contact information:
