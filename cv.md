@@ -58,9 +58,9 @@ func Chunk(slice []int, size int) {
 
 ## Projects:
 
-[Online-shop](https://darzox.github.io/mishki--adaptive-responsive/) - HTML, CSS
-[Barbershop](https://darzox.github.io/barbershop--adaptive-responsive/) - HTML, CSS
-[Ascii representation web-app](https://github.com/darzox/ascii-art-export) - HTML, CSS, Golang
+- [Online-shop](https://darzox.github.io/mishki--adaptive-responsive/) - HTML, CSS
+- [Barbershop](https://darzox.github.io/barbershop--adaptive-responsive/) - HTML, CSS
+- [Ascii representation web-app](https://github.com/darzox/ascii-art-export) - HTML, CSS, Golang
 
 
 ## Languages:
