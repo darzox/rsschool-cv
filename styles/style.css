@@ -1,7 +1,150 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 595px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+
+  height: 155px;
+  margin-bottom: 7px;
+  background-image: url(../images/mariano-werneck-lxlo92w-X7c-unsplash\ 1header.jpg);
+}
+
+header::after {
+  position: absolute;
+  top: 75px;
+
+  content: "";
+
+  width: 151px;
+  height: 47px;
+
+  background-image: url(../images/tape3goodvibes.png);
+  background-repeat: no-repeat;
+}
+
+.surename {
+  margin-left: 9px;
+  margin-top: 12px;
+
+  font-family: "Syne", sans-serif ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #fefefe;
+  text-transform: uppercase;
+}
+
+.surename::after {
+  content: "";
+
+  position: absolute;
+  left: 9px;
+  top: 50px;
+
+  width: 285px;
+  height: 6px;
+
+  background-image: url(../images/VectorSurename-bar.svg);
+}
+
+.location {
+  margin-left: 9px;
+
+  font-family: "Syne", sans-serif;
+  font-size: 9px;
+  line-height: 11px;
+  font-style: normal;
+  color:#fefefe;
+  text-transform: capitalize;
+}
+
+.location span {
+  text-transform: uppercase;
+}
+
+.name {
+  position: absolute;
+  left: 312px;
+  top: 50px;
+
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color:#fefefe;
+}
+
+.internet-addresses {
+  position: absolute;
+  left: 312px;
+  top: 67px;
+
+  color: #fefefe;
+  font-size: 9px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 11px;
+}
+
+.internet-addresses a {
+  color: #fefefe;
+}
+
+.internet-addresses a:hover {
+  text-decoration: underline;
+}
+
+address + img {
+  position: absolute;
+  left: 363px;
+  top: 4px;
+  z-index: 10;
+}
+
+nav {
+  position: relative;
+  z-index: 200;
+
+  width: 577px;
+  margin-left: 9px;
+  margin-right: 9px;
+  margin-top: 56px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-family: "Syne", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color:#fefefe;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .visually-hidden {
