@@ -30,7 +30,7 @@ header {
 
 header::after {
   position: absolute;
-  top: 75px;
+  top: 122px;
 
   content: "";
 
@@ -146,6 +146,220 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+
+/* Main starts here */
+
+main {
+  position: relative;
+
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  background-color: black;
+}
+main::after {
+  content: "";
+
+  position: absolute;
+  top:325px;
+  left:0;
+
+
+  width: 132px;
+  height: 64px;
+
+  background-image: url(../images/limit.png);
+  background-repeat: no-repeat;
+}
+
+main h2 {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FEFEFE;
+  text-align: center;
+}
+
+#about {
+  position: relative;
+
+  width: 240px;
+}
+
+#about h2::after {
+  content: "";
+
+  position: absolute;
+  top:25px;
+  left:55px;
+
+  width: 120px;
+  height: 13px;
+
+  background-image: url(../images/Vectorabout-bar.svg);
+}
+
+#about p {
+  margin-top: 20px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FEFEFE;
+}
+
+#code {
+  position: relative;
+
+  width: 253px;
+  height: 400px;
+}
+
+#code h2::after {
+  content: "";
+
+  position: absolute;
+  top:25px;
+  left:55px;
+
+  width: 120px;
+  height: 13px;
+
+  background-image: url(../images/Vectorcode-bar.svg);
+  background-repeat: no-repeat;
+}
+
+#code::after {
+  content: "";
+
+  position: absolute;
+  top: 87px;
+  right: -23px;
+  width: 273px;
+  height: 273px;
+
+  background-image: url(../images/Group\ 16Code.png);
+  background-repeat: no-repeat;
+}
+
+#code p {
+  margin-top: 20px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FEFEFE;
+}
+
+#code pre {
+  position: absolute;
+  top: 146px;
+  z-index: 10;
+
+  font-family: monospace;
+  font-size: 6px;
+}
+
+#skills {
+  position: relative;
+
+  margin-bottom: 30px;
+  width: 550px;
+}
+
+#skills h2::after {
+  content: "";
+
+  position: absolute;
+  top:25px;
+  left:209px;
+
+  width: 120px;
+  height: 13px;
+
+  background-image: url(../images/VectorSkils-bar.svg);
+  background-repeat: no-repeat;
+}
+
+#skills ul {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 157px;
+
+  list-style: square;
+}
+
+#skills li {
+  font-family: "Syne", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #fefefe;
+}
+
+#languages ul {
+  margin-top: 5px;
+}
+
+#languages li {
+  position: relative;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FEFEFE;
+}
+
+#languages li::before {
+  content: "";
+
+  position: absolute;
+  left: 44px;
+  top: 7px;
+  width: 57px;
+  height: 1px;
+
+  background-color: #FEFEFE;
+}
+
+#languages span {
+  position: absolute;
+  left: 115px;
+}
+
+#projects ul {
+  width: 100px;
+
+  list-style: square;
+}
+#projects li {
+  color: #fefefe;
+}
+
+#projects a {
+  font-family: "Syne", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #fefefe;
+}
+
+#projects a:hover {
+  text-decoration: underline;
+}
+
 
 .visually-hidden {
   position: absolute;
