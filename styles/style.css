@@ -323,6 +323,19 @@ main h2 {
   color: #fefefe;
 }
 
+#languages::after {
+  content: "";
+
+  position: absolute;
+  top: 600px;
+  left: 50%;
+
+  width : 1px;
+  height: 60px;
+
+  background-color: #fefefe;
+}
+
 #languages ul {
   margin-top: 5px;
 }
