@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Syne";
+  font-weight: 700;
+  src:
+    url(../fonts/Syne.ttf) format('truetype'),
+    url(../fonts/Syne.woff) format('woff'),
+    url(../fonts/Syne.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  src:
+    url(../fonts/Lato-Regular.ttf) format('truetype'),
+    url(../fonts/Lato-Regular.woff) format('woff'),
+    url(../fonts/Lato-Regular.woff2) format('woff2');
+}
