@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>CV</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+        <b class="surename">bakitov</b>
+        <address class="location">nur-sultan, <span>kaz</span></address>
+        <nav>
+            <ul>
+                <li><a href="#about">About myself</a></li>
+                <li><a href="#code">Code example</a></li>
+                <li><a href="#skills">Technical skills</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        <b class="name">Askhat</b>
+        <address class="internet-addresses">
+            <ul>
+                <li><a href="mailto:bakitov.askhat@gmail.com">bakitov.askhat@gmail.com</a></li>
+                <li><a href="tel:+77024025282">+77024025282</a></li>
+                <li>discord: darzox</li>
+                <li>telegram: ddarzox</li>
+                <li><a href="https://www.behance.net/askhajan553e1c">behance</a></li>
+            </ul>
+        </address>
+        <img src="images/askhat.png" alt="Askhat Bakitov" width="200">
+    </header>
+    <main>
+        <h1 class="visually-hidden">Askhata Bakitov CV</h1>
+        <section id="about">
+            <h2 >About myself</h2>
+            <p>I am electrical engineer who wants to change career path. One of my main strength, that I want to point out is perseverance. As electrical engineer I have worked as electrical design engineer who designs and develop electrical systems and have worked as electrical fieldside engineer who's goal is maintain electrical systems and machines.Most of my jobs was shift work(rotational type), so I had time to self-study myself: HTML, CSS, Adobe Photoshop.</p>
+        </section>
+        <section id="code">
+            <h2>Code example(GO)</h2>
+            <p>Instructions: Write a function called Chunk that receives as parameters a slice, slice []int, and a number size int. The goal of this function is to chunk a slice into many sub slices where each sub slice has the length of size.If the size is 0 it should print a newline ('\n').
+            </p>
+            <pre>
+                func Chunk(slice []int, size int) {
+                    singleSlice := []int{}
+                    doubleSlice := [][]int{}
+                    if size == 0 {
+                        fmt.Println()
+                        return
+                    }
+                    if len(slice) == 0 {
+                        fmt.Println("[]")
+                        return
+                    }
+                    for i, d := range slice {
+                        if i%size == 0 &amp;&amp; i != 0 {
+                            doubleSlice = append(doubleSlice, singleSlice)
+                            singleSlice = []int{}
+                        }
+                        singleSlice = append(singleSlice, d)
+                    }
+                    doubleSlice = append(doubleSlice, singleSlice)
+                    fmt.Println(doubleSlice)
+                }
+            </pre>
+        </section>
+        <section id="skills">
+          <h2>Techincal Skills</h2>
+          <ul>
+            <li>HTML,CSS</li>
+            <li>Basic Golang</li>
+            <li>Git</li>
+            <li>VS Code</li>
+            <li>Adobe Photoshop, AutoCad</li>
+          </ul>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English <span>Intermediate</span></li>
+                <li>Kazakh <span>Native</span></li>
+                <li>Russian <span>Proficient</span></li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="">Online-shop</a></li>
+                <li><a href="">Barbershop</a></li>
+                <li><a href="">Ascii representation web-app</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+      <p><a href="https://github.com/darzox">Github</a></p>
+      <p> <time datetime="2022-07-27 12:00">2022</time> </p>
+      <p><a href="https://app.rs.school/course/schedule?course=js-fe-preschool-2022q2"><img width="100" src="/images/rs_school_js.svg" alt="RSSchool"></a></p>
+    </footer>
+  </div>
+</body>
+</html>
